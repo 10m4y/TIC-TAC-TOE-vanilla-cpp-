@@ -21,6 +21,15 @@ class player{
             win_percentage=0;
             player_type="NO GAME PLAYED";
         }
+        void player_stats(){
+            cout<<"Name : "<<name<<endl;
+            cout<<"Player Type : "<<player_type<<endl;
+            cout<<"Total Matches Played : "<<matches_played<<endl;
+            cout<<"Won : "<<wins<<endl;
+            cout<<"Lost : "<<lost<<endl;
+            cout<<"Win % : "<<win_percentage<<endl;
+            
+        }
 
         void player_stats_changed(int result){
             matches_played++;
