@@ -1,3 +1,5 @@
+#include "playerClass.h"
+#include "winLogic.h"
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -57,10 +59,10 @@ int main(){
         cin>>menu;
         if(menu==0)break;
         else if(menu==1){
-            p1.player_stats;
+            p1.player_stats();
         }
         else if(menu==2){
-            p2.player_stats;
+            p2.player_stats();
         }
         else{
             continue;
